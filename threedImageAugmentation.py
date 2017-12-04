@@ -298,20 +298,7 @@ class ImageDataGenerator(object):
         #                         [np.sin(thetaY), 0, np.cos(thetaY), 0],
         #                         [0, 0, 0,1]])
 
-        # rotation_matrix_z = np.array([[np.cos(thetaZ), -np.sin(thetaZ), 0, 0],
-        #                         [np.sin(thetaZ), np.cos(thetaZ), 0, 0],
-        #                         [0, 0, 1, 0], 
-        #                         [0,0,0,1]])
 
-        # rotation_matrix_x = np.array([[1,0,0,0],
-        #                         [0,1, 0, 0],
-        #                         [0,0, 1, 0],
-        #                         [0, 0, 0,1]])
-
-        # rotation_matrix_y = np.array([[1,0,0,0],
-        #                         [0,1, 0, 0],
-        #                         [0,0, 1, 0],
-        #                         [0, 0, 0,1]])
 
         # rotation_matrix = np.dot(np.dot(rotation_matrix_z, rotation_matrix_x), rotation_matrix_y)
         rotation_matrix = rotation_matrix_x
